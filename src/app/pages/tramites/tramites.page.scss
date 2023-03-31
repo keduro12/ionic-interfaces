@@ -17,3 +17,19 @@ ion-card{
     // border: black 1px solid;
     width: 100%;
 }
+
+ion-card-content{
+    text-align: justify;
+
+}
+
+ion-card-title{
+    color: red;
+}
+
+.centrar-titulo{
+    width: 95%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}

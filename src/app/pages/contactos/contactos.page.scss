@@ -1,3 +1,24 @@
-ion-item{
-    background-color: rgba(var(--ion-color-mycolor-rgb), 0.84);
+// ion-item{
+//     background-color: rgba(var(--ion-color-mycolor-rgb), 0.84);
+// }
+
+ion-accordion-group{
+    width: 100%;
+    // display: block;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.label-junta{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+img{
+    width: 95%;
+    border-radius: 10px;
+    margin-top: 10px;
 }
