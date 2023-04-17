@@ -1,0 +1,30 @@
+.container{
+    display: block;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+ion-card{
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+ion-item{
+    margin-left: 16px;
+    margin-top: 15px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+ion-button{
+    width: 70%;
+    height: 40px;
+    margin-top: 10px;
+    --background: var(--ion-color-mycolor);
+}
+
+ion-button:hover{
+    --background: rgb(183, 82, 82);
+}

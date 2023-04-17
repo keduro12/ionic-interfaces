@@ -11,6 +11,7 @@ export class AppComponent {
     { title: 'Contactos', url: 'contactos', icon: 'call' },
     { title: 'Eventos', url: 'eventos', icon: 'calendar' },
     { title: 'Tramites', url: 'tramites', icon: 'document-text' },
+    { title: 'Registro', url: 'agregar', icon: 'document-text' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}

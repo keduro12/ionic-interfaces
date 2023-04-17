@@ -31,6 +31,10 @@ const routes: Routes = [
     path: 'tramites',
     loadChildren: () => import('./pages/tramites/tramites.module').then( m => m.TramitesPageModule)
   },
+  {
+    path: 'agregar',
+    loadChildren: () => import('./pages/agregar/agregar.module').then( m => m.AgregarPageModule)
+  },
 ];
 
 @NgModule({
